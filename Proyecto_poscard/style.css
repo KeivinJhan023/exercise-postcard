@@ -1,0 +1,63 @@
+
+.cabezera{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.titulo{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+.imagen{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 80px;
+}
+.logo{
+    width: 80px;
+    justify-self: center;
+}
+.cuerpo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px;
+}
+.contenido{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 0px;
+}
+.contenido p{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin-left: 10px;
+}
+.formulario input{
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #c7c7c7;
+}
+.enviar{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+.enviar button{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #acd9b2;
+    color: white; 
+    margin-top: 10px;  
+    height: 30px;
+}
